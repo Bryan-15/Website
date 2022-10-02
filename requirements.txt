@@ -1,0 +1,5 @@
+streamlit
+streamlit-lottie
+requests
+streamlit-option-menu
+base64
