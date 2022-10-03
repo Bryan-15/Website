@@ -119,7 +119,7 @@ if selected == "Document":
     st.write("---")
     st.markdown("")
     st.markdown("")
-    left,center, right, extra, extra1 = st.columns(5)
+    left,center, right, extra, extra1 = st.columns((1,1,1,1,1)
     with left:
         st.write("")
         st_lottie(lottie1, height=300, key="reading")
@@ -132,9 +132,9 @@ if selected == "Document":
             file_name="Bryan Colis CV.pdf",
             mime='application/octet-stream')
 
-        st.image(cvo, width= 400)
+        st.image(cvo, width= 500)
         st.markdown("")
-        st.image(cvt, width= 400)
+        st.image(cvt, width= 500)
 
         with open("OJT.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
@@ -146,7 +146,7 @@ if selected == "Document":
             file_name="Bryan Colis Certificate.pdf",
             mime='application/octet-stream')
         
-        st.image(cert, width= 400)
+        st.image(cert, width= 500)
         
 
     with right:
