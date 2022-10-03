@@ -12,9 +12,9 @@ fb= Image.open("FB.png")
 ig= Image.open("IG.png")
 gh= Image.open("GH.png")
 gm= Image.open("GM.png")
-cv1= Image.open("Cv1.jpg")
-cv2= Image.open("Cv2.jpg")
-cert= Image.open("Cert.jpg")
+cvo= Image.open("Cv1.JPG")
+cvt= Image.open("Cv2.JPG")
+cert= Image.open("Cert.JPG")
 
 def load_lottieurl(url):
     r= requests.get(url)
@@ -132,8 +132,9 @@ if selected == "Document":
             file_name="Bryan Colis CV.pdf",
             mime='application/octet-stream')
 
-        st.image(cv1, width= 400)
-        st.image(cv2, width= 400)
+        st.image(cvo, width= 400)
+        st.markdown("")
+        st.image(cvt, width= 400)
 
         with open("OJT.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
