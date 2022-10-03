@@ -134,7 +134,7 @@ if selected == "Document":
 
         st.image(cvo, width= 600)
         st.markdown("")
-        st.image(cvt, width= 700)
+        st.image(cvt, width= 600)
 
         with open("OJT.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
@@ -146,7 +146,7 @@ if selected == "Document":
             file_name="Bryan Colis Certificate.pdf",
             mime='application/octet-stream')
         
-        st.image(cert, width= 800)
+        st.image(cert, width= 600)
         
 
     with right:
