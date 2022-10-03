@@ -65,7 +65,7 @@ selected = option_menu(
 
 if selected == "About":
     with st.container():
-        extral, left, right, extrar = st.columns(4)
+        extral, left, right, extrar = st.columns((1,2,2,2))
         
         with extral:
             st.markdown("")
