@@ -12,6 +12,9 @@ fb= Image.open("FB.png")
 ig= Image.open("IG.png")
 gh= Image.open("GH.png")
 gm= Image.open("GM.png")
+cv1= Image.open("Cv1.jpg")
+cv2= Image.open("Cv2.jpg")
+cert= Image.open("Cert.jpg")
 
 def load_lottieurl(url):
     r= requests.get(url)
@@ -126,10 +129,11 @@ if selected == "Document":
 
         st.download_button(label="Download CV", 
             data=PDFbyte,
-            file_name="pandas-clean-id-column.pdf",
+            file_name="Bryan Colis CV.pdf",
             mime='application/octet-stream')
 
-        show_pdf('CV.pdf') 
+        st.image(cv1, width= 400)
+        st.image(cv2, width= 400)
 
         with open("OJT.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
@@ -138,10 +142,11 @@ if selected == "Document":
         st.markdown("")
         st.download_button(label="Download Certificate of Completion in DICT LC3 OJT", 
             data=PDFbyte,
-            file_name="pandas-clean-id-column.pdf",
+            file_name="Bryan Colis Certificate.pdf",
             mime='application/octet-stream')
-
-        show_pdf('OJT.pdf')
+        
+        st.image(cert, width= 400)
+        
 
     with right:
         st.write("")
