@@ -119,7 +119,7 @@ if selected == "Document":
     st.write("---")
     st.markdown("")
     st.markdown("")
-    left,center, right, extra = st.columns((2,1,1,1)
+    left,center, right, extra = st.columns((2,1,1,1))
     with left:
         st.write("")
         st_lottie(lottie1, height=300, key="reading")
