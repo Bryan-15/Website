@@ -72,7 +72,7 @@ if selected == "About":
 
         with left:
             st.markdown("")
-            st.markdown("""<h1>Hi, I am Ren Laloves ko Miss na Miss na kita IloveyouRen ko 🖤!</h1>""", unsafe_allow_html=True)
+            st.markdown("""<h1>Hi Ren Hi Laloves ko Miss na Miss na kita IloveyouRen ko 🖤!</h1>""", unsafe_allow_html=True)
 
         with right:
             st_lottie(lottie2, height=150, key="wave")
