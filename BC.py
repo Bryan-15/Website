@@ -47,7 +47,7 @@ lottie5 =load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_hwcplx4x.
 selected = option_menu(
     menu_title=None,
     options=["About","Document","Contacts"],
-    icons=["person","book","envelope"],
+    icons=["sparkling_heart","heartbeat","two_hearts"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -72,7 +72,7 @@ if selected == "About":
 
         with left:
             st.markdown("")
-            st.markdown("""<h1>Hi Ren Hi, Laloves ko!💘</h1>""", unsafe_allow_html=True)
+            st.markdown("""<h1>Hi Ren, Hi Laloves ko!💘</h1>""", unsafe_allow_html=True)
 
         with right:
             st_lottie(lottie2, height=250, key="wave")
