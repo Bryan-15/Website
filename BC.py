@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title="Bry's Portfolio", page_icon=":computer:", layout="wide")
 
-img= Image.open("5.jpg")
+img= Image.open("us.jpg")
 fb= Image.open("FB.png")
 ig= Image.open("IG.png")
 gh= Image.open("GH.png")
