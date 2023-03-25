@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="Bry's Portfolio", page_icon=":computer:", layout="wide")
+st.set_page_config(page_title="MY REN ", page_icon=":heart:", layout="wide")
 
 img= Image.open("us.jpg")
 fb= Image.open("FB.png")
