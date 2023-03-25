@@ -72,7 +72,7 @@ if selected == "About":
 
         with left:
             st.markdown("")
-            st.markdown("""<h1>Hi Ren Hi Laloves ko Miss na Miss na kita IloveyouRen ko 🖤!</h1>""", unsafe_allow_html=True)
+            st.markdown("""<h1>Hi Ren Hi, Laloves ko!💘</h1>""", unsafe_allow_html=True)
 
         with right:
             st_lottie(lottie2, height=250, key="wave")
@@ -86,13 +86,13 @@ if selected == "About":
         with left_column:
             st.markdown("")
             st.markdown("")
-            st.header("Graduate of Bachelor of Science in Information Technology ")
+            st.header("Everyday ILoveYou💘 ")
             st.markdown("")
-            st.subheader("Major in Business Analytics ")
+            st.subheader("Nandito Lang Ako Palagi Para Sayo Mahal💘 ")
             st.markdown("")
-            st.subheader("From Batangas State University the National Engineering University")
+            st.subheader("I Will Always Be Your Sigurado, Payapa At Pahinga 💘💘💘")
             st.markdown("")
-            st.subheader("2018-2022")
+            st.subheader("I'm Yours Only Ren💘")
         with right_column:
             st.image(img, width= 450)
 
