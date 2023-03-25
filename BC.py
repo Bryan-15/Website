@@ -75,7 +75,7 @@ if selected == "About":
             st.markdown("""<h1>Hi Ren Hi Laloves ko Miss na Miss na kita IloveyouRen ko 🖤!</h1>""", unsafe_allow_html=True)
 
         with right:
-            st_lottie(lottie2, height=150, key="wave")
+            st_lottie(lottie2, height=250, key="wave")
 
         with extrar:
             st.markdown("")
@@ -94,7 +94,7 @@ if selected == "About":
             st.markdown("")
             st.subheader("2018-2022")
         with right_column:
-            st.image(img, width= 400)
+            st.image(img, width= 600)
 
     with st.container():
         st.write("---")
