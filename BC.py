@@ -47,7 +47,7 @@ lottie5 =load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_hwcplx4x.
 selected = option_menu(
     menu_title=None,
     options=["About","Document","Contacts"],
-    icons=["person","book","evelope"],
+    icons=["person","book","envelope"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -105,12 +105,12 @@ if selected == "About":
 
 
         with right_column:
-            st.header("What I Do?")
+            st.header("Dates To Remember")
             st.markdown("")
             st.markdown("")
-            st.subheader(":large_blue_diamond: Programming :beginner:")
+            st.subheader(":large_blue_diamond: 01/21/23 :beginner:")
             st.markdown("")
-            st.subheader(":large_blue_diamond: Web Development :beginner:")
+            st.subheader(":large_blue_diamond: 02/18/23 :beginner:")
             st.markdown("")
     with st.container():
         st.write("---")
