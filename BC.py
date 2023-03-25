@@ -36,7 +36,7 @@ hide_st_style="""
         </style>
         """   
 st.markdown(hide_st_style, unsafe_allow_html=True)
-lottie_coding =load_lottieurl("https://assets7.lottiefiles.com/private_files/lf30_wqypnpu5.json")
+lottie_coding =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_wZSMXs0yM6.json")
 
 lottie1 =load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_gvu0afpx.json")
 lottie2 =load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_JhSJFE.json")
