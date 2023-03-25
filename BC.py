@@ -94,7 +94,7 @@ if selected == "About":
             st.markdown("")
             st.subheader("2018-2022")
         with right_column:
-            st.image(img, width= 600)
+            st.image(img, width= 450)
 
     with st.container():
         st.write("---")
