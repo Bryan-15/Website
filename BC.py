@@ -38,8 +38,8 @@ hide_st_style="""
 st.markdown(hide_st_style, unsafe_allow_html=True)
 lottie_coding =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_wZSMXs0yM6.json")
 
-lottie1 =load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_cvi9bg1a.json")
-lottie2 =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_9wzu5dlu.json")
+lottie1 =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_9wzu5dlu.json")
+lottie2 =load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_cvi9bg1a.json")
 lottie3 =load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_xohcppgz.json")
 lottie4 =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_vuxwscfi.json")
 lottie5 =load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_hwcplx4x.json")
