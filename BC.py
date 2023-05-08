@@ -110,7 +110,7 @@ if selected == "About":
             st.markdown("")
             st.subheader(":large_blue_diamond: 01/21/23 :beginner:")
             st.markdown("")
-            st.subheader(":large_blue_diamond: 02/18/23 :heart:")
+            st.subheader(":sunflower: 02/18/23 :heart:")
             st.markdown("")
     with st.container():
         st.write("---")
