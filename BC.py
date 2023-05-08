@@ -12,9 +12,9 @@ fb= Image.open("FB.png")
 ig= Image.open("IG.png")
 gh= Image.open("GH.png")
 gm= Image.open("GM.png")
-cvo= Image.open("Cv1.JPG")
-cvt= Image.open("Cv2.JPG")
-cert= Image.open("Cert.JPG")
+cvo= Image.open("1.JPG")
+cvt= Image.open("2.JPG")
+cert= Image.open("3.JPG")
 
 def load_lottieurl(url):
     r= requests.get(url)
